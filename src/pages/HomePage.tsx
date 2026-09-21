@@ -6,7 +6,7 @@ import { useBrands, useAllCars } from '@/lib/hooks';
 import { buildTransformStyle, type ImageTransform } from '@/components/ImageEditor';
 import type { Brand } from '@/lib/types';
 
-const HERO_IMAGE = 'https://images.pexels.com/photos/33345481/pexels-photo-33345481.jpeg?auto=compress&cs=tinysrgb&w=1920';
+const HERO_IMAGE = 'awrx-logo.jpg';
 
 function normalizeBrand(s: string): string {
   return s
