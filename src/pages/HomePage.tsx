@@ -116,10 +116,6 @@ export function HomePage() {
                 placeholder="700 HP V8 Mercedes, Twin Turbo Ferrari, AWD Porsche..."
                 className="flex-1 bg-transparent text-white placeholder-ink-500 outline-none py-3 text-sm md:text-base"
               />
-              <button type="submit" className="px-5 py-3 bg-white text-ink-950 rounded-xl font-medium text-sm hover:bg-ink-200 transition-colors flex items-center gap-2">
-                <Sparkles className="w-4 h-4" />
-                <span className="hidden sm:inline">AI Ara</span>
-              </button>
             </div>
           </form>
 
