@@ -115,7 +115,6 @@ export function HomePage() {
                 onChange={(e) => setSearchValue(e.target.value)}
                 placeholder="700 HP V8 Mercedes, Twin Turbo Ferrari, AWD Porsche..."
                 className="flex-1 bg-transparent text-white placeholder-ink-500 outline-none py-3 text-sm md:text-base"
-              />
             </div>
           </form>
 
