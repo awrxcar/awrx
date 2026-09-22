@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import { RouterProvider, useRouter } from '@/lib/router';
 import { FavoritesProvider } from '@/lib/favorites';
 import { ThemeProvider } from '@/lib/theme';
@@ -50,6 +51,7 @@ export default function App() {
           </FavoritesProvider>
         </RouterProvider>
       </ThemeProvider>
+      <Analytics />
     </ErrorBoundary>
   );
 }
