@@ -11,6 +11,7 @@ import { ComparePage } from '@/pages/ComparePage';
 import { FavoritesPage } from '@/pages/FavoritesPage';
 import { MapPage } from '@/pages/MapPage';
 import { AdminPage } from '@/pages/AdminPage';
+import { Analytics } from '@vercel/analytics/react';
 
 function Routes() {
   const { route } = useRouter();
@@ -47,6 +48,7 @@ export default function App() {
               <Navbar />
               <Routes />
             </div>
+            <Analytics />
           </FavoritesProvider>
         </RouterProvider>
       </ThemeProvider>
